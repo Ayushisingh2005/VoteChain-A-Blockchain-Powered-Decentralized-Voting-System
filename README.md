@@ -20,21 +20,21 @@ Modern responsive UI with Tailwind CSS
 
 🧰 Tech Stack
 
-Blockchain: Ethereum
+| Blockchain: Ethereum      |
 
-Smart Contracts: Solidity
+| Smart Contracts: Solidity |
 
-Framework: Hardhat
+| Framework: Hardhat        |
 
-Frontend: React + Vite
+| Frontend: React + Vite    |
 
-Styling: Tailwind CSS
+| Styling: Tailwind CSS     |
 
-Web3 Library: ethers.js
+| Web3 Library: ethers.js   |
 
-Runtime: Node.js
+| Runtime: Node.js          |
 
-Wallet: MetaMask
+| Wallet: MetaMask          |
 
 📁 Project Directory Structure
 ```text
