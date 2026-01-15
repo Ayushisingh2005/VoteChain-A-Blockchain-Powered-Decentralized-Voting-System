@@ -37,6 +37,7 @@ Runtime: Node.js
 Wallet: MetaMask
 
 📁 Project Directory Structure
+```text
 VoteChain-A-Blockchain-Powered-Decentralized-Voting-System/
 │
 ├── cache/
@@ -73,14 +74,15 @@ VoteChain-A-Blockchain-Powered-Decentralized-Voting-System/
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ⚙️ Prerequisites
 🖥️ Terminal (bash)
 
-"""
+```bash
 node -v
 npm -v
-"""
+```
 
 Install Node.js (v18+)
 
@@ -92,69 +94,71 @@ Basic knowledge of blockchain & Ethereum
 1️⃣ Clone the Repository
 🖥️ Terminal (bash)
 
-"""
+```bash
 git clone https://github.com/your-username/VoteChain-A-Blockchain-Powered-Decentralized-Voting-System.git
 
 cd VoteChain-A-Blockchain-Powered-Decentralized-Voting-System
-"""
+```
 
 2️⃣ Install Dependencies
 🖥️ Terminal (bash)
 
-"""
+```bash
 npm install
-"""
+```
 
 ⛓️ Blockchain Setup (Hardhat)
 3️⃣ Start Local Blockchain
 🖥️ Terminal (bash)
 
-"""
+```bash
 npx hardhat node
-"""
+```
 
 4️⃣ Compile Smart Contracts
 🖥️ Terminal (bash)
 
-"""
+```bash
 npx hardhat compile
-"""
+```
 
 🚀 Deploy Smart Contract
 🖥️ Terminal (bash)
 
-"""
+```bash
 npx hardhat run scripts/deploy.js --network localhost
-"""
+```
 
 📌 Copy the contract address shown in the terminal and use it in your frontend (ethers.js configuration).
 
 🧪 Run Smart Contract Tests
 🖥️ Terminal (bash)
 
-"""
+```bash
 npx hardhat test
-"""
+```
 
 🌐 Run Frontend Application
 🖥️ Terminal (bash)
 
-"""
+```bash
 npm run dev
-"""
+```
 
 Open in browser:
-
+```text
 http://localhost:5173
-
+```
 🦊 MetaMask Configuration (Localhost)
 
 Add a new network in MetaMask:
+```text
 
 Network Name: Hardhat Local
 RPC URL: http://127.0.0.1:8545
 Chain ID: 31337
 Currency Symbol: ETH
+```
 
 
 Import any private key displayed in the Hardhat node terminal.
@@ -188,9 +192,6 @@ DAO-based election governance
 📄 License
 MIT License
 
-👩‍💻 Author
-
-Ayushi Singh
 
 ⭐ Support
 
